@@ -1,0 +1,2203 @@
+{
+ "schema": 2,
+ "year": 2026,
+ "updated": "2026-10-29",
+ "federal": {
+  "single": {
+   "std": 16100,
+   "addlMedicare": 200000,
+   "brackets": [
+    [
+     12400,
+     10
+    ],
+    [
+     50400,
+     12
+    ],
+    [
+     105700,
+     22
+    ],
+    [
+     201775,
+     24
+    ],
+    [
+     256225,
+     32
+    ],
+    [
+     640600,
+     35
+    ],
+    [
+     null,
+     37
+    ]
+   ]
+  },
+  "mfj": {
+   "std": 32200,
+   "addlMedicare": 250000,
+   "brackets": [
+    [
+     24800,
+     10
+    ],
+    [
+     100800,
+     12
+    ],
+    [
+     211400,
+     22
+    ],
+    [
+     403550,
+     24
+    ],
+    [
+     512450,
+     32
+    ],
+    [
+     768700,
+     35
+    ],
+    [
+     null,
+     37
+    ]
+   ]
+  },
+  "hoh": {
+   "std": 24150,
+   "addlMedicare": 200000,
+   "brackets": [
+    [
+     17700,
+     10
+    ],
+    [
+     67450,
+     12
+    ],
+    [
+     105700,
+     22
+    ],
+    [
+     201775,
+     24
+    ],
+    [
+     256200,
+     32
+    ],
+    [
+     640600,
+     35
+    ],
+    [
+     null,
+     37
+    ]
+   ]
+  }
+ },
+ "fica": {
+  "ssRate": 6.2,
+  "ssWageBase": 184500,
+  "medicareRate": 1.45,
+  "addlMedicareRate": 0.9
+ },
+ "limits": {
+  "k401": 24500,
+  "ira": 7500,
+  "hsaSelf": 4400,
+  "hsaFamily": 8750,
+  "fsa": 3400
+ },
+ "states": {
+  "AL": {
+   "name": "Alabama",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      2.0
+     ],
+     [
+      500,
+      4.0
+     ],
+     [
+      3000,
+      5.0
+     ]
+    ],
+    "std": 3000,
+    "exemption": 1500,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      2.0
+     ],
+     [
+      1000,
+      4.0
+     ],
+     [
+      6000,
+      5.0
+     ]
+    ],
+    "std": 8500,
+    "exemption": 3000,
+    "credit": 0
+   }
+  },
+  "AK": {
+   "name": "Alaska",
+   "kind": "none"
+  },
+  "AZ": {
+   "name": "Arizona",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      2.5
+     ]
+    ],
+    "std": 8350,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      2.5
+     ]
+    ],
+    "std": 16700,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "AR": {
+   "name": "Arkansas",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      2.0
+     ],
+     [
+      4600,
+      3.9
+     ]
+    ],
+    "std": 2470,
+    "exemption": 0,
+    "credit": 29
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      2.0
+     ],
+     [
+      4600,
+      3.9
+     ]
+    ],
+    "std": 4940,
+    "exemption": 0,
+    "credit": 58
+   }
+  },
+  "CA": {
+   "name": "California",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      1.0
+     ],
+     [
+      11079,
+      2.0
+     ],
+     [
+      26264,
+      4.0
+     ],
+     [
+      41452,
+      6.0
+     ],
+     [
+      57542,
+      8.0
+     ],
+     [
+      72724,
+      9.3
+     ],
+     [
+      371479,
+      10.3
+     ],
+     [
+      445771,
+      11.3
+     ],
+     [
+      742953,
+      12.3
+     ],
+     [
+      1000000,
+      13.3
+     ]
+    ],
+    "std": 5540,
+    "exemption": 0,
+    "credit": 153
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      1.0
+     ],
+     [
+      22158,
+      2.0
+     ],
+     [
+      52528,
+      4.0
+     ],
+     [
+      82904,
+      6.0
+     ],
+     [
+      115084,
+      8.0
+     ],
+     [
+      145448,
+      9.3
+     ],
+     [
+      742958,
+      10.3
+     ],
+     [
+      891542,
+      11.3
+     ],
+     [
+      1000000,
+      12.3
+     ],
+     [
+      1485906,
+      13.3
+     ]
+    ],
+    "std": 11080,
+    "exemption": 0,
+    "credit": 306
+   },
+   "taxesHSA": true,
+   "note": "HSA contributions are taxed by this state."
+  },
+  "CO": {
+   "name": "Colorado",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      4.4
+     ]
+    ],
+    "std": 16100,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      4.4
+     ]
+    ],
+    "std": 32200,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "CT": {
+   "name": "Connecticut",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      2.0
+     ],
+     [
+      10000,
+      4.5
+     ],
+     [
+      50000,
+      5.5
+     ],
+     [
+      100000,
+      6.0
+     ],
+     [
+      200000,
+      6.5
+     ],
+     [
+      250000,
+      6.9
+     ],
+     [
+      500000,
+      6.99
+     ]
+    ],
+    "std": 0,
+    "exemption": 15000,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      2.0
+     ],
+     [
+      20000,
+      4.5
+     ],
+     [
+      100000,
+      5.5
+     ],
+     [
+      200000,
+      6.0
+     ],
+     [
+      400000,
+      6.5
+     ],
+     [
+      500000,
+      6.9
+     ],
+     [
+      1000000,
+      6.99
+     ]
+    ],
+    "std": 0,
+    "exemption": 24000,
+    "credit": 0
+   },
+   "note": "Personal exemption phases out at higher incomes."
+  },
+  "DE": {
+   "name": "Delaware",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      2000,
+      2.2
+     ],
+     [
+      5000,
+      3.9
+     ],
+     [
+      10000,
+      4.8
+     ],
+     [
+      20000,
+      5.2
+     ],
+     [
+      25000,
+      5.55
+     ],
+     [
+      60000,
+      6.6
+     ]
+    ],
+    "std": 3250,
+    "exemption": 0,
+    "credit": 110
+   },
+   "mfj": {
+    "brackets": [
+     [
+      2000,
+      2.2
+     ],
+     [
+      5000,
+      3.9
+     ],
+     [
+      10000,
+      4.8
+     ],
+     [
+      20000,
+      5.2
+     ],
+     [
+      25000,
+      5.55
+     ],
+     [
+      60000,
+      6.6
+     ]
+    ],
+    "std": 6500,
+    "exemption": 0,
+    "credit": 220
+   }
+  },
+  "FL": {
+   "name": "Florida",
+   "kind": "none"
+  },
+  "GA": {
+   "name": "Georgia",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      4.99
+     ]
+    ],
+    "std": 15000,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      4.99
+     ]
+    ],
+    "std": 30000,
+    "exemption": 0,
+    "credit": 0
+   },
+   "note": "4.99% and higher standard deduction enacted May 2026 (H.B. 463), retroactive to Jan 1, 2026."
+  },
+  "HI": {
+   "name": "Hawaii",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      1.4
+     ],
+     [
+      9600,
+      3.2
+     ],
+     [
+      14400,
+      5.5
+     ],
+     [
+      19200,
+      6.4
+     ],
+     [
+      24000,
+      6.8
+     ],
+     [
+      36000,
+      7.2
+     ],
+     [
+      48000,
+      7.6
+     ],
+     [
+      125000,
+      7.9
+     ],
+     [
+      175000,
+      8.25
+     ],
+     [
+      225000,
+      9.0
+     ],
+     [
+      275000,
+      10.0
+     ],
+     [
+      325000,
+      11.0
+     ]
+    ],
+    "std": 4400,
+    "exemption": 1144,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      1.4
+     ],
+     [
+      19200,
+      3.2
+     ],
+     [
+      28800,
+      5.5
+     ],
+     [
+      38400,
+      6.4
+     ],
+     [
+      48000,
+      6.8
+     ],
+     [
+      72000,
+      7.2
+     ],
+     [
+      96000,
+      7.6
+     ],
+     [
+      250000,
+      7.9
+     ],
+     [
+      350000,
+      8.25
+     ],
+     [
+      450000,
+      9.0
+     ],
+     [
+      550000,
+      10.0
+     ],
+     [
+      650000,
+      11.0
+     ]
+    ],
+    "std": 8800,
+    "exemption": 2288,
+    "credit": 0
+   }
+  },
+  "ID": {
+   "name": "Idaho",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      4811,
+      5.3
+     ]
+    ],
+    "std": 16100,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      9622,
+      5.3
+     ]
+    ],
+    "std": 32200,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "IL": {
+   "name": "Illinois",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      4.95
+     ]
+    ],
+    "std": 0,
+    "exemption": 2925,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      4.95
+     ]
+    ],
+    "std": 0,
+    "exemption": 5850,
+    "credit": 0
+   }
+  },
+  "IN": {
+   "name": "Indiana",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      2.95
+     ]
+    ],
+    "std": 0,
+    "exemption": 1000,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      2.95
+     ]
+    ],
+    "std": 0,
+    "exemption": 2000,
+    "credit": 0
+   }
+  },
+  "IA": {
+   "name": "Iowa",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      3.8
+     ]
+    ],
+    "std": 16100,
+    "exemption": 0,
+    "credit": 40
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      3.8
+     ]
+    ],
+    "std": 32200,
+    "exemption": 0,
+    "credit": 80
+   }
+  },
+  "KS": {
+   "name": "Kansas",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      5.2
+     ],
+     [
+      23000,
+      5.58
+     ]
+    ],
+    "std": 3605,
+    "exemption": 9160,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      5.2
+     ],
+     [
+      46000,
+      5.58
+     ]
+    ],
+    "std": 8240,
+    "exemption": 18320,
+    "credit": 0
+   }
+  },
+  "KY": {
+   "name": "Kentucky",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      3.5
+     ]
+    ],
+    "std": 3360,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      3.5
+     ]
+    ],
+    "std": 3360,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "LA": {
+   "name": "Louisiana",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      3.0
+     ]
+    ],
+    "std": 12875,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      3.0
+     ]
+    ],
+    "std": 25750,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "ME": {
+   "name": "Maine",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      5.8
+     ],
+     [
+      27399,
+      6.75
+     ],
+     [
+      64849,
+      7.15
+     ]
+    ],
+    "std": 8350,
+    "exemption": 5300,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      5.8
+     ],
+     [
+      54849,
+      6.75
+     ],
+     [
+      129749,
+      7.15
+     ]
+    ],
+    "std": 16700,
+    "exemption": 10600,
+    "credit": 0
+   }
+  },
+  "MD": {
+   "name": "Maryland",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      2.0
+     ],
+     [
+      1000,
+      3.0
+     ],
+     [
+      2000,
+      4.0
+     ],
+     [
+      3000,
+      4.75
+     ],
+     [
+      100000,
+      5.0
+     ],
+     [
+      125000,
+      5.25
+     ],
+     [
+      150000,
+      5.5
+     ],
+     [
+      250000,
+      5.75
+     ],
+     [
+      500000,
+      6.25
+     ],
+     [
+      1000000,
+      6.5
+     ]
+    ],
+    "std": 3350,
+    "exemption": 3200,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      2.0
+     ],
+     [
+      1000,
+      3.0
+     ],
+     [
+      2000,
+      4.0
+     ],
+     [
+      3000,
+      4.75
+     ],
+     [
+      150000,
+      5.0
+     ],
+     [
+      175000,
+      5.25
+     ],
+     [
+      225000,
+      5.5
+     ],
+     [
+      300000,
+      5.75
+     ],
+     [
+      600000,
+      6.25
+     ],
+     [
+      1200000,
+      6.5
+     ]
+    ],
+    "std": 6700,
+    "exemption": 6400,
+    "credit": 0
+   },
+   "note": "County income tax (about 2.25%\u20133.3%) is separate; add it as local tax."
+  },
+  "MA": {
+   "name": "Massachusetts",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      5.0
+     ],
+     [
+      1083150,
+      9.0
+     ]
+    ],
+    "std": 0,
+    "exemption": 4400,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      5.0
+     ],
+     [
+      1083150,
+      9.0
+     ]
+    ],
+    "std": 0,
+    "exemption": 8800,
+    "credit": 0
+   }
+  },
+  "MI": {
+   "name": "Michigan",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      4.25
+     ]
+    ],
+    "std": 0,
+    "exemption": 5900,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      4.25
+     ]
+    ],
+    "std": 0,
+    "exemption": 11800,
+    "credit": 0
+   }
+  },
+  "MN": {
+   "name": "Minnesota",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      5.35
+     ],
+     [
+      33310,
+      6.8
+     ],
+     [
+      109430,
+      7.85
+     ],
+     [
+      203150,
+      9.85
+     ]
+    ],
+    "std": 15300,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      5.35
+     ],
+     [
+      48700,
+      6.8
+     ],
+     [
+      193480,
+      7.85
+     ],
+     [
+      337930,
+      9.85
+     ]
+    ],
+    "std": 30600,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "MS": {
+   "name": "Mississippi",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      10000,
+      4.0
+     ]
+    ],
+    "std": 2300,
+    "exemption": 6000,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      10000,
+      4.0
+     ]
+    ],
+    "std": 4600,
+    "exemption": 12000,
+    "credit": 0
+   }
+  },
+  "MO": {
+   "name": "Missouri",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      1348,
+      2.0
+     ],
+     [
+      2696,
+      2.5
+     ],
+     [
+      4044,
+      3.0
+     ],
+     [
+      5392,
+      3.5
+     ],
+     [
+      6740,
+      4.0
+     ],
+     [
+      8088,
+      4.5
+     ],
+     [
+      9436,
+      4.7
+     ]
+    ],
+    "std": 16100,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      1348,
+      2.0
+     ],
+     [
+      2696,
+      2.5
+     ],
+     [
+      4044,
+      3.0
+     ],
+     [
+      5392,
+      3.5
+     ],
+     [
+      6740,
+      4.0
+     ],
+     [
+      8088,
+      4.5
+     ],
+     [
+      9436,
+      4.7
+     ]
+    ],
+    "std": 32200,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "MT": {
+   "name": "Montana",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      4.7
+     ],
+     [
+      47500,
+      5.65
+     ]
+    ],
+    "std": 16100,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      4.7
+     ],
+     [
+      95000,
+      5.65
+     ]
+    ],
+    "std": 32200,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "NE": {
+   "name": "Nebraska",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      2.46
+     ],
+     [
+      4130,
+      3.51
+     ],
+     [
+      24760,
+      4.55
+     ]
+    ],
+    "std": 8850,
+    "exemption": 0,
+    "credit": 176
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      2.46
+     ],
+     [
+      8250,
+      3.51
+     ],
+     [
+      49530,
+      4.55
+     ]
+    ],
+    "std": 17700,
+    "exemption": 0,
+    "credit": 352
+   }
+  },
+  "NV": {
+   "name": "Nevada",
+   "kind": "none"
+  },
+  "NH": {
+   "name": "New Hampshire",
+   "kind": "none"
+  },
+  "NJ": {
+   "name": "New Jersey",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      1.4
+     ],
+     [
+      20000,
+      1.75
+     ],
+     [
+      35000,
+      3.5
+     ],
+     [
+      40000,
+      5.53
+     ],
+     [
+      75000,
+      6.37
+     ],
+     [
+      500000,
+      8.97
+     ],
+     [
+      1000000,
+      10.75
+     ]
+    ],
+    "std": 0,
+    "exemption": 1000,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      1.4
+     ],
+     [
+      20000,
+      1.75
+     ],
+     [
+      50000,
+      2.45
+     ],
+     [
+      70000,
+      3.5
+     ],
+     [
+      80000,
+      5.53
+     ],
+     [
+      150000,
+      6.37
+     ],
+     [
+      500000,
+      8.97
+     ],
+     [
+      1000000,
+      10.75
+     ]
+    ],
+    "std": 0,
+    "exemption": 2000,
+    "credit": 0
+   },
+   "taxesHSA": true,
+   "note": "HSA contributions are taxed by this state."
+  },
+  "NM": {
+   "name": "New Mexico",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      1.5
+     ],
+     [
+      5500,
+      3.2
+     ],
+     [
+      16500,
+      4.3
+     ],
+     [
+      33500,
+      4.7
+     ],
+     [
+      66500,
+      4.9
+     ],
+     [
+      210000,
+      5.9
+     ]
+    ],
+    "std": 16100,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      1.5
+     ],
+     [
+      8000,
+      3.2
+     ],
+     [
+      25000,
+      4.3
+     ],
+     [
+      50000,
+      4.7
+     ],
+     [
+      100000,
+      4.9
+     ],
+     [
+      315000,
+      5.9
+     ]
+    ],
+    "std": 32200,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "NY": {
+   "name": "New York",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      3.9
+     ],
+     [
+      8500,
+      4.4
+     ],
+     [
+      11700,
+      5.15
+     ],
+     [
+      13900,
+      5.4
+     ],
+     [
+      80650,
+      5.9
+     ],
+     [
+      215400,
+      6.85
+     ],
+     [
+      1077550,
+      9.65
+     ],
+     [
+      5000000,
+      10.3
+     ],
+     [
+      25000000,
+      10.9
+     ]
+    ],
+    "std": 8000,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      3.9
+     ],
+     [
+      17150,
+      4.4
+     ],
+     [
+      23600,
+      5.15
+     ],
+     [
+      27900,
+      5.4
+     ],
+     [
+      161550,
+      5.9
+     ],
+     [
+      323200,
+      6.85
+     ],
+     [
+      2155350,
+      9.65
+     ],
+     [
+      5000000,
+      10.3
+     ],
+     [
+      25000000,
+      10.9
+     ]
+    ],
+    "std": 16050,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "NC": {
+   "name": "North Carolina",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      3.99
+     ]
+    ],
+    "std": 12750,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      3.99
+     ]
+    ],
+    "std": 25500,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "ND": {
+   "name": "North Dakota",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      48475,
+      1.95
+     ],
+     [
+      244825,
+      2.5
+     ]
+    ],
+    "std": 16100,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      80975,
+      1.95
+     ],
+     [
+      298075,
+      2.5
+     ]
+    ],
+    "std": 32200,
+    "exemption": 0,
+    "credit": 0
+   }
+  },
+  "OH": {
+   "name": "Ohio",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      26050,
+      2.75
+     ]
+    ],
+    "std": 0,
+    "exemption": 2400,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      26050,
+      2.75
+     ]
+    ],
+    "std": 0,
+    "exemption": 4800,
+    "credit": 0
+   }
+  },
+  "OK": {
+   "name": "Oklahoma",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      3750,
+      2.5
+     ],
+     [
+      4900,
+      3.5
+     ],
+     [
+      7200,
+      4.5
+     ]
+    ],
+    "std": 6350,
+    "exemption": 1000,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      7500,
+      2.5
+     ],
+     [
+      9800,
+      3.5
+     ],
+     [
+      14400,
+      4.5
+     ]
+    ],
+    "std": 12700,
+    "exemption": 2000,
+    "credit": 0
+   }
+  },
+  "OR": {
+   "name": "Oregon",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      4.75
+     ],
+     [
+      4550,
+      6.75
+     ],
+     [
+      11400,
+      8.75
+     ],
+     [
+      125000,
+      9.9
+     ]
+    ],
+    "std": 2910,
+    "exemption": 0,
+    "credit": 256
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      4.75
+     ],
+     [
+      9100,
+      6.75
+     ],
+     [
+      22800,
+      8.75
+     ],
+     [
+      250000,
+      9.9
+     ]
+    ],
+    "std": 5820,
+    "exemption": 0,
+    "credit": 512
+   }
+  },
+  "PA": {
+   "name": "Pennsylvania",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      3.07
+     ]
+    ],
+    "std": 0,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      3.07
+     ]
+    ],
+    "std": 0,
+    "exemption": 0,
+    "credit": 0
+   },
+   "taxes401k": true,
+   "note": "Pennsylvania taxes 401(k) contributions, so they aren't subtracted here."
+  },
+  "RI": {
+   "name": "Rhode Island",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      3.75
+     ],
+     [
+      82050,
+      4.75
+     ],
+     [
+      186450,
+      5.99
+     ]
+    ],
+    "std": 11200,
+    "exemption": 5250,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      3.75
+     ],
+     [
+      82050,
+      4.75
+     ],
+     [
+      186450,
+      5.99
+     ]
+    ],
+    "std": 22400,
+    "exemption": 10500,
+    "credit": 0
+   }
+  },
+  "SC": {
+   "name": "South Carolina",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      1.99
+     ],
+     [
+      30000,
+      5.21
+     ]
+    ],
+    "std": 15000,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      1.99
+     ],
+     [
+      30000,
+      5.21
+     ]
+    ],
+    "std": 30000,
+    "exemption": 0,
+    "credit": 0
+   },
+   "note": "New 2026 rates (H. 4216, retroactive to Jan 1). The SC income-adjusted deduction shrinks at higher incomes, so tax may run slightly higher than shown."
+  },
+  "SD": {
+   "name": "South Dakota",
+   "kind": "none"
+  },
+  "TN": {
+   "name": "Tennessee",
+   "kind": "none"
+  },
+  "TX": {
+   "name": "Texas",
+   "kind": "none"
+  },
+  "UT": {
+   "name": "Utah",
+   "kind": "flat",
+   "single": {
+    "brackets": [
+     [
+      0,
+      4.5
+     ]
+    ],
+    "std": 0,
+    "exemption": 0,
+    "credit": 966
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      4.5
+     ]
+    ],
+    "std": 0,
+    "exemption": 0,
+    "credit": 1932
+   },
+   "note": "Taxpayer credit phases out at higher incomes; estimate may run low."
+  },
+  "VT": {
+   "name": "Vermont",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      3.35
+     ],
+     [
+      49400,
+      6.6
+     ],
+     [
+      119700,
+      7.6
+     ],
+     [
+      249700,
+      8.75
+     ]
+    ],
+    "std": 7650,
+    "exemption": 5300,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      3.35
+     ],
+     [
+      82500,
+      6.6
+     ],
+     [
+      199450,
+      7.6
+     ],
+     [
+      304000,
+      8.75
+     ]
+    ],
+    "std": 15300,
+    "exemption": 10600,
+    "credit": 0
+   }
+  },
+  "VA": {
+   "name": "Virginia",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      2.0
+     ],
+     [
+      3000,
+      3.0
+     ],
+     [
+      5000,
+      5.0
+     ],
+     [
+      17000,
+      5.75
+     ]
+    ],
+    "std": 8750,
+    "exemption": 930,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      2.0
+     ],
+     [
+      3000,
+      3.0
+     ],
+     [
+      5000,
+      5.0
+     ],
+     [
+      17000,
+      5.75
+     ]
+    ],
+    "std": 17500,
+    "exemption": 1860,
+    "credit": 0
+   }
+  },
+  "WA": {
+   "name": "Washington",
+   "kind": "none",
+   "note": "No tax on wages; 7%/9.9% capital gains excise tax not modeled."
+  },
+  "WV": {
+   "name": "West Virginia",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      2.22
+     ],
+     [
+      10000,
+      2.96
+     ],
+     [
+      25000,
+      3.33
+     ],
+     [
+      40000,
+      4.44
+     ],
+     [
+      60000,
+      4.82
+     ]
+    ],
+    "std": 0,
+    "exemption": 2000,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      2.22
+     ],
+     [
+      10000,
+      2.96
+     ],
+     [
+      25000,
+      3.33
+     ],
+     [
+      40000,
+      4.44
+     ],
+     [
+      60000,
+      4.82
+     ]
+    ],
+    "std": 0,
+    "exemption": 4000,
+    "credit": 0
+   }
+  },
+  "WI": {
+   "name": "Wisconsin",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      3.5
+     ],
+     [
+      15110,
+      4.4
+     ],
+     [
+      51950,
+      5.3
+     ],
+     [
+      332720,
+      7.65
+     ]
+    ],
+    "std": 13960,
+    "exemption": 700,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      3.5
+     ],
+     [
+      20150,
+      4.4
+     ],
+     [
+      69260,
+      5.3
+     ],
+     [
+      443630,
+      7.65
+     ]
+    ],
+    "std": 25840,
+    "exemption": 1400,
+    "credit": 0
+   }
+  },
+  "WY": {
+   "name": "Wyoming",
+   "kind": "none"
+  },
+  "DC": {
+   "name": "District of Columbia",
+   "kind": "graduated",
+   "single": {
+    "brackets": [
+     [
+      0,
+      4.0
+     ],
+     [
+      10000,
+      6.0
+     ],
+     [
+      40000,
+      6.5
+     ],
+     [
+      60000,
+      8.5
+     ],
+     [
+      250000,
+      9.25
+     ],
+     [
+      500000,
+      9.75
+     ],
+     [
+      1000000,
+      10.75
+     ]
+    ],
+    "std": 16100,
+    "exemption": 0,
+    "credit": 0
+   },
+   "mfj": {
+    "brackets": [
+     [
+      0,
+      4.0
+     ],
+     [
+      10000,
+      6.0
+     ],
+     [
+      40000,
+      6.5
+     ],
+     [
+      60000,
+      8.5
+     ],
+     [
+      250000,
+      9.25
+     ],
+     [
+      500000,
+      9.75
+     ],
+     [
+      1000000,
+      10.75
+     ]
+    ],
+    "std": 32200,
+    "exemption": 0,
+    "credit": 0
+   }
+  }
+ },
+ "unverified": [],
+ "sources": [
+  "IRS Rev. Proc. 2025-32 (2026 federal brackets, standard deductions)",
+  "SSA 2026 contribution and benefit base",
+  "IRS 2026 retirement plan limits (401(k) $24,500; IRA $7,500)",
+  "Tax Foundation, State Individual Income Tax Rates and Brackets, 2026",
+  "IRS 2026 HSA and health FSA limits",
+  "South Carolina DOR, Information about H. 4216",
+  "Georgia H.B. 463 (2026)",
+  "IRS 2026 retirement plan limits (catch-up $8,000; ages 60\u201363 $11,250; IRA catch-up $1,100)",
+  "One Big Beautiful Bill Act provisions: child tax credit, SALT cap, senior deduction, non-itemizer charitable deduction (via Kiplinger)",
+  "IRS Rev. Proc. 2025-32 capital gains thresholds (via Experian); net investment income tax (IRC \u00a71411)"
+ ],
+ "notes": "State brackets are [income where the rate starts, rate %]. Head of household uses single state brackets. taxes401k / taxesHSA mark states that don't exclude those contributions.",
+ "selfEmployment": {
+  "rate": 15.3,
+  "ssPart": 12.4,
+  "medicarePart": 2.9,
+  "netEarningsFactor": 0.9235
+ },
+ "catchup": {
+  "k401_50": 8000,
+  "k401_60_63": 11250,
+  "ira_50": 1100,
+  "hsa_55": 1000
+ },
+ "childCredit": {
+  "perChild": 2200,
+  "refundablePerChild": 1700,
+  "earnedThreshold": 2500,
+  "phaseInRate": 15,
+  "phaseOutStart": {
+   "single": 200000,
+   "hoh": 200000,
+   "mfj": 400000
+  },
+  "phaseOutPer1000": 50,
+  "otherDependent": 500
+ },
+ "salt": {
+  "cap": 40400,
+  "phaseStart": 505000,
+  "phaseRate": 30,
+  "floor": 10000
+ },
+ "age65": {
+  "additionalStd": {
+   "single": 2050,
+   "hoh": 2050,
+   "mfjPerPerson": 1650
+  },
+  "seniorDeduction": 6000,
+  "seniorPhaseStart": {
+   "single": 75000,
+   "hoh": 75000,
+   "mfj": 150000
+  },
+  "seniorPhaseRate": 6,
+  "seniorLastYear": 2028
+ },
+ "charityNonItemizer": {
+  "single": 1000,
+  "hoh": 1000,
+  "mfj": 2000
+ },
+ "supplementalRate": 22,
+ "capGains": {
+  "zeroTop": {
+   "single": 49450,
+   "hoh": 66200,
+   "mfj": 98900
+  },
+  "fifteenTop": {
+   "single": 545500,
+   "hoh": 579600,
+   "mfj": 613700
+  },
+  "lossLimit": 3000
+ },
+ "niit": {
+  "rate": 3.8,
+  "threshold": {
+   "single": 200000,
+   "hoh": 200000,
+   "mfj": 250000
+  }
+ }
+}
